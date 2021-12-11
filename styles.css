@@ -33,20 +33,30 @@ h1, h2, p {
 
 }
 
+/* Changes were made here by Juan*/
 .card {
 
+    flex-grow: 1;
     
     margin: 5px;
     padding: 15px;
-    display: inline-block;
+    
     border: dotted white 2px;
     width: 300px;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 
 
 }
 
+/* minor changes made here, too*/
 .gradient {
-    
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-around;
     margin: 5px;
     padding: 15px;
     background: linear-gradient(0deg, var(--color-magenta) 0%, rgba(54,54,54,1) 100%);
@@ -54,6 +64,7 @@ h1, h2, p {
     font-family: monospace;
     font-size: 12px;
     vertical-align: bottom;
+   
 }
 
 h2 {
